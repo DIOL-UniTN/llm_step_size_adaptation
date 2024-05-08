@@ -12,7 +12,7 @@ def query(prompt, url, token="", model=""):
         ctx_size = int(model.split('-')[-1])
     except:
         ctx_size = 8192
-    if len(prompt) // 4 > ctx_size:  # Approx 2 chars per token
+    if len(prompt) // 4 > ctx_size:  # Approx 4 chars per token
         print("Prompt too long")
         new_prompt = prompt.split('```txt')[0] + '```txt\n'
         new_prompt += prompt[-ctx_size - len(new_prompt) // 4:]
