@@ -1,0 +1,3 @@
+IOHexperimenter==0.2.9.2
+numpy==1.26.4
+requests==2.31.0
