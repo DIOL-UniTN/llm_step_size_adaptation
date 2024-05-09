@@ -23,7 +23,7 @@ Cite this code as:
 ```bibtex
 @inproceedings{custode2024investigation,
   title={{An investigation on the use of Large Language Models for hyperparameter tuning in Evolutionary Algorithms}},
-  author={Custode, Leonardo Lucio and Yaman, Anil and Caraffini, Fabio and Iacca, Giovanni},
+  author={Custode, Leonardo Lucio and Caraffini, Fabio and Yaman, Anil and Iacca, Giovanni},
   booktitle={Genetic and Evolutionary Computation Conference Companion},
   publisher={ACM},
   year={2024},
